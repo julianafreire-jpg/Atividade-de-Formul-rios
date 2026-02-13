@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário de Cadastro</title>
+  </head>
+  <body>
+    <header>
+      <h1>Faça seu cadastro</h1>
+    </header>
+    <h3>É rápido e seguro</h3>
+    <main>
+      <form action="atividadeforms.html" method="post">
+        <label for="Nome">Nome:</label>
+        <input type="name" />
+      <p>
+        <label for="email">Email:</label>
+        <input type="Email" />
+      </p>
+      <p>
+        <label for="senha">Senha:</label>
+        <input type="password" />
+      </p>
+      <p>
+        <label for="Países">Países:</label>
+        <select name="Países" id="Países">
+          <option value="Brasil">Brasil</option>
+          <option value="Chile">Chile</option>
+          <option value="Paraguai">Paraguai</option>
+          <option value="Venezuela">Venezuela</option>
+        </select></p>
+      <p>      
+        <label for="caixa de texto"
+          >Por que você merece ganhar a bolsa de estudos?
+        </label>
+    </p>
+        <p><textarea name="Resposta" id="Resposta"></textarea></p>
+      </form>
+              <button type="submit">Enviar</button>
+        <button type="Reset">Redefinir</button>
+      </form>
+    </main>
+    <footer></footer>
+  </body>
+</html>
