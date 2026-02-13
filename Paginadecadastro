@@ -13,7 +13,7 @@
     <main>
       <form action="atividadeforms.html" method="post">
         <label for="Nome">Nome:</label>
-        <input type="name" />
+        <input type="text" />
       <p>
         <label for="email">Email:</label>
         <input type="Email" />
